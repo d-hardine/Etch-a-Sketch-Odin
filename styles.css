@@ -17,5 +17,5 @@ body {
     width: 30px;
     height: 30px;
     border-style: solid;
-    box-sizing: block;
+    border-color: darkgray;
 }

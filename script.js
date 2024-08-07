@@ -12,3 +12,12 @@ function makeGrid () {
 }
 
 makeGrid();
+
+draw = document.querySelectorAll('.draw');
+console.log(draw);
+for (let i =0; i < 256; i++) {
+    draw[i].addEventListener('mouseover', function(e) {
+        console.log('draw clicked');
+        draw[i].style.backgroundColor = 'black';
+    })
+}
