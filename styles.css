@@ -1,3 +1,8 @@
+* {
+    /*padding: 0;
+    margin: 0;*/
+}
+
 body {
     font-family: Roboto, Helvetica, sans-serif;
     background-color: #fcba03;
@@ -5,28 +10,23 @@ body {
 
 .main {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
+
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 557px;
-    height: 557px;
-    margin: 0 auto;
+    margin: 25px auto;
 }
 
 .draw {
     background-color: white;
-    width: 30px;
-    height: 30px;
-    border-style: solid;
+    border: 1px solid;
     border-color: darkgray;
 }
 
 .grid-button {
     width: auto;
-    height: 100px;
+    height: 75px;
     margin: 0 42px;
 }
